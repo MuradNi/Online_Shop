@@ -1,3 +1,5 @@
+<?php
+
 use App\Http\Controllers\ApiController;
 
 Route::get('/users', [ApiController::class, 'getUsers']);
@@ -15,3 +17,5 @@ Route::get('/product-images', [ApiController::class, 'getProductImages']);
 Route::get('/product-sizes', [ApiController::class, 'getProductSizes']);
 Route::get('/reviews', [ApiController::class, 'getReviews']);
 Route::get('/sizes', [ApiController::class, 'getSizes']);
+
+?>
